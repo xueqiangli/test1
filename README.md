@@ -5,7 +5,8 @@
 以后得好好学习，争取多写点源码出来，提升自己同时帮助到别人
 
 # 基本使用
-1.添加 Gradle （以前是有的是Jecenter方式引入，由于国内被墙了，切换成JitPack方式引入，使用方式不变）
+
+# 1.添加 Gradle （以前是有的是Jecenter方式引入，由于国内被墙了，切换成JitPack方式引入，使用方式不变）
 
 # Jitpack 
 
@@ -24,10 +25,14 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.xueqiangli:test1:Tag'
-	}
-	```
+
+   implementation 'com.github.xueqiangli:test1:Tag'
+}
+```
 
 
+# 2.在清单文件中添加网络权限
 
-
+```
+<uses-permission android:name="android.permission.INTERNET" />
+```
