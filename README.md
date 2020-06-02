@@ -26,7 +26,7 @@ Step 2. Add the dependency
 ```
 dependencies {
 
-   implementation 'com.github.xueqiangli:test1:Tag'
+   implementation 'com.github.xueqiangli:test1:1.0.1'
 }
 ```
 
